@@ -1,7 +1,7 @@
 //+------------------------------------------------------------------+
-//|                                           ClassControlPainel.mqh |
-//|                                             |
-//|                            |
+//|                                            ClassControlPanel.mqh |
+//|                                            Rafael Floriani Pinto |
+//|                           https://www.mql5.com/pt/users/rafaelfp |
 //+------------------------------------------------------------------+
 #property copyright ""
 #property link      ""
