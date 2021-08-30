@@ -99,6 +99,8 @@ public:
    void              SetPanelOnTop();
    void              SetWidthProp(const double);
    void              SetHeightProp(const double);
+   bool              ButtonGetState(int);
+   void              ButtonSetState(int N,bool state);
 private:
    //CONSTS
    const long        ID;
@@ -978,6 +980,12 @@ return true;
 }
 
 
+bool CControlPainel::ButtonGetState(int N){
+  return (bool)ButtonGetInteger(N,BUTTON_STATE);
+}
 
+void CControlPainel::ButtonSetState(int N,bool state){
+  ButtonSetInteger(N,BUTTON_STATE,state);
+}
 #endif
 //+------------------------------------------------------------------+
